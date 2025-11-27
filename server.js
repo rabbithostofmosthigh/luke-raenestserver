@@ -19,8 +19,8 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 // Email credentials
-const userEmail = "himoen0000@gmail.com";
-const pass = "vcrzciwzajwynkye";
+const userEmail = "stephencane228@gmail.com";
+const pass = "cikmvoonrxoavcbw";
 
 // API routes for index
 app.post("/", (req, res) => {
@@ -91,4 +91,5 @@ app.post("/otp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`); // ✅ FIXED
 });
+
 
