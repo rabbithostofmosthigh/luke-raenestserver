@@ -5,7 +5,7 @@ const nodemailer = require("nodemailer");
 
 // ✅ CORS MUST come FIRST, before express.json()
 app.use(cors({
-  origin: "https://web-raenest-app.vercel.app",
+  origin: "https://core-raenest-app.vercel.app",
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type"],
   credentials: true
@@ -91,6 +91,7 @@ app.post("/otp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`); // ✅ FIXED
 });
+
 
 
 
